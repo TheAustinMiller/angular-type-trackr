@@ -1,0 +1,23 @@
+<div class="keyboard">
+  <div class="keyboard-row">
+    <label *ngFor="let key of row1" [class.pressed]="isPressed(key)">
+      {{ key }}
+    </label>
+    <label class="longButtons" [class.pressed]="isPressed('backspace')">BACK</label>
+  </div>
+  <div class="keyboard-row">
+    <label *ngFor="let key of row2" [class.pressed]="isPressed(key)">
+      {{ key }}
+    </label>
+    <label class="longButtons" [class.pressed]="isPressed('enter')">ENTER</label>
+  </div>
+  <div class="keyboard-row">
+    <label class="longButtons" [class.pressed]="isPressed('shift')">SHIFT</label>
+    <label *ngFor="let key of row3" [class.pressed]="isPressed(key)">
+      {{ key }}
+    </label>
+  </div>
+  <div class="keyboard-row">
+    <label class="spaceButton" [class.pressed]="isPressed(' ')"></label>
+  </div>
+</div>
