@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { KeyboardComponent } from './keyboard/keyboard.component';
+import { ScreenComponent } from './screen/screen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    KeyboardComponent
+    KeyboardComponent,
+    ScreenComponent
   ],
   imports: [
     BrowserModule

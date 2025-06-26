@@ -6,6 +6,22 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /**
+   * KEYBOARD STUFF
+   **/
   keyStates: { [key: string]: boolean } = {};
 
   constructor() {

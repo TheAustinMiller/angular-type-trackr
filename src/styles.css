@@ -1,13 +1,10 @@
 html, body {
-  height: 100%;
   margin: 0;
   background-color: #121213;
   overflow: hidden;
   font-family: Helvetica;
-}
-
-app-root {
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  height: 100%;
+  justify-content: center;
+  height: 100vh;
 }
