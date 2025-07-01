@@ -1,3 +1,5 @@
 <div class="screen">
-  <label class="board"></label>
+  <span *ngFor="let char of quote.split(''); let i = index">
+    <span [class.highlight]="i === currentIndex">{{ char }}</span>
+  </span>
 </div>

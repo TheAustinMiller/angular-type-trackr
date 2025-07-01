@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-screen',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./screen.component.css']
 })
 export class ScreenComponent {
-
+  @Input() quote!: string;
+  @Input() currentIndex!: number;
 }

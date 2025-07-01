@@ -3,8 +3,17 @@
   width: 80vw;
   height: 45vh;
   margin: 50px;
+  display: fixed;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
 }
 
-.board {
-  
+.highlight {
+  background-color: yellow;
+}
+
+span {
+    font-size: 50px;
+  color: #808080;
 }
